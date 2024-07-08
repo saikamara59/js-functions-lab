@@ -44,7 +44,7 @@ function isCharAVowel(char) {
 
 
 
-console.log('Exercise 3 Result:', isCharAVowel("s"));
+console.log('Exercise 3 Result:', isCharAVowel("f"));
 
 console.log(isCharAVowel('a'));  // true
 console.log(isCharAVowel('E'));  // true
@@ -82,13 +82,13 @@ Example: greetUser('Sam', 'morning') should return "Good morning, Sam!"
 
 Complete the exercise in the space below: */
 
-function greetUser (name,timeOfDay) {
+function greetUser (Sai ,timeOfDay) {
     if (timeOfDay === "morning"){
-        return(`Good morning,${name}!`)
+        return(`Good morning,${Sai}!`)
      } else if (timeOfDay === "afternoon"){
-        return (`Good afternoon,${name}!`)
+        return (`Good afternoon,${Sai}!`)
      } else if (timeOfDay === "evening"){
-        return (`Good evening,${name}!`)
+        return (`Good evening,${Sai}!`)
      }
 }
 
@@ -190,7 +190,7 @@ function basicCalculator (num1,num2,operation) {
         return num1 * num2
      }
      else if (operation === 'divide')
-    return num1 % num2
+    return num1 / num2
 }
 
 
